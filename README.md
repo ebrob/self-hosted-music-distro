@@ -1,6 +1,7 @@
 # Music Distribution Website Template
 
 A modern, responsive music showcase website template that automatically displays your music library with a beautiful dark grey theme. Perfect for independent artists who want to showcase their music without relying on streaming platforms.
+Example @ https://drum.press/
 
 ## Features
 
