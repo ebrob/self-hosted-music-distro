@@ -78,6 +78,11 @@
             gap: 1rem;
         }
 
+        .logo-main {
+            text-decoration: none;
+            color: inherit;
+        }
+
         .logo-text h1 {
             font-size: 1.5rem;
             font-weight: 700;
@@ -1514,13 +1519,13 @@
     <header class="header">
         <div class="header-content">
             <div class="logo">
-                <div class="logo-main">
+                <a href="https://thetracklessdeep.com" class="logo-main">
                     <img src="/logo.jpg" alt="Logo">
                     <div class="logo-text">
                         <h1>The Trackless Deep</h1>
                         <p>Music Library <span id="musicCounter">(loading...)</span></p>
                     </div>
-                </div>
+                </a>
                 <div class="logo-actions mobile-only">
                     <div class="info-dropdown">
                         <button class="info-btn" id="infoBtn" onclick="toggleInfoDropdown()" title="About Artist">
@@ -1530,16 +1535,6 @@
                             <div class="bio-content">
                                 <h3>About The Trackless Deep</h3>
                                 <p>Score and music from The Trackless Deep universe and its animated feature, The Amethyst Passage.</p>
-
-                                <div class="social-links">
-                                    <h4>Connect with The Trackless Deep</h4>
-                                    <div class="social-buttons">
-                                        <a href="https://soundcloud.com/tracklessdeep" class="social-btn" target="_blank">
-                                            <i class="fab fa-soundcloud"></i>
-                                            SoundCloud
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
