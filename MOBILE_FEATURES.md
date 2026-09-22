@@ -1,8 +1,8 @@
-# [ARTIST NAME] Mobile Features
+# The Trackless Deep Mobile Features
 
 ## 🎵 Lock Screen Controls
 
-Your [ARTIST NAME] music website now supports mobile lock screen controls! Here's what you can do:
+The Trackless Deep music website now supports mobile lock screen controls! Here's what you can do:
 
 ### **iOS (iPhone/iPad)**
 1. **Add to Home Screen**: 
@@ -88,4 +88,4 @@ Your [ARTIST NAME] music website now supports mobile lock screen controls! Here'
 - **Background Audio**: May be limited by device battery optimization settings
 - **Offline Mode**: Basic caching for core app files
 
-Your [ARTIST NAME] music library is now fully mobile-compatible with professional lock screen controls! 🎉
+The Trackless Deep music library is now fully mobile-compatible with professional lock screen controls! 🎉

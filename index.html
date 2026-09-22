@@ -5,27 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="[ARTIST NAME]">
+<meta name="apple-mobile-web-app-title" content="The Trackless Deep">
 <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#000000">
-    <title>Music Library</title>
+    <meta name="theme-color" content="#07060c">
+    <title>The Trackless Deep — Music</title>
     <link rel="manifest" href="/manifest.json">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 <style>
         :root {
-            --primary-color: #ffffff;
-            --primary-hover: #e5e5e5;
-            --bg-primary: #2a2a2a;
-            --bg-secondary: #3a3a3a;
-            --bg-tertiary: #4a4a4a;
-            --text-primary: #ffffff;
-            --text-secondary: #cccccc;
-            --text-muted: #999999;
-            --border-color: #555555;
-            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --primary-color: #8b6ec9;
+            --primary-hover: #a389d6;
+            --bg-primary: #07060c;
+            --bg-secondary: #0d0b16;
+            --bg-tertiary: #16121f;
+            --text-primary: #e8e3da;
+            --text-secondary: #c9c2b6;
+            --text-muted: #8f8878;
+            --border-color: #3a3450;
+            --accent-ember: #e0a05a;
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
         }
 
         * {
@@ -35,16 +36,20 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #2a2a2a;
+            font-family: 'Spectral', Georgia, serif;
+            background: #07060c;
             color: var(--text-primary);
             line-height: 1.6;
             min-height: 100vh;
         }
 
+        h1, h2, h3, h4 {
+            font-family: 'Cinzel', Georgia, serif;
+        }
+
         /* Header */
         .header {
-            background: rgba(42, 42, 42, 0.8);
+            background: rgba(7, 6, 12, 0.8);
             backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border-color);
             padding: 0.75rem 2rem;
@@ -420,7 +425,7 @@
 
         .song-card.active .song-name {
             color: white;
-            background: linear-gradient(transparent, rgba(99, 102, 241, 0.9));
+            background: linear-gradient(transparent, rgba(139, 110, 201, 0.9));
         }
 
 
@@ -637,7 +642,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(15, 15, 35, 0.95);
+            background: rgba(7, 6, 12, 0.95);
             backdrop-filter: blur(10px);
             display: none;
             justify-content: center;
@@ -1512,7 +1517,7 @@
                 <div class="logo-main">
                     <img src="/logo.jpg" alt="Logo">
                     <div class="logo-text">
-                        <h1>[ARTIST NAME]</h1>
+                        <h1>The Trackless Deep</h1>
                         <p>Music Library <span id="musicCounter">(loading...)</span></p>
                     </div>
                 </div>
@@ -1523,25 +1528,13 @@
                         </button>
                         <div class="info-dropdown-content" id="infoDropdown">
                             <div class="bio-content">
-                                <h3>About [ARTIST NAME]</h3>
-                                <p>Welcome to my music showcase! This is my personal space to share my latest tracks, albums, and artwork with you.</p>
-                                
+                                <h3>About The Trackless Deep</h3>
+                                <p>Score and music from The Trackless Deep universe and its animated feature, The Amethyst Passage.</p>
+
                                 <div class="social-links">
-                                    <h4>Connect with [ARTIST NAME]</h4>
+                                    <h4>Connect with The Trackless Deep</h4>
                                     <div class="social-buttons">
-                                        <a href="https://instagram.com/" class="social-btn" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                            Instagram
-                                        </a>
-                                        <a href="https://open.spotify.com/artist/" class="social-btn" target="_blank">
-                                            <i class="fab fa-spotify"></i>
-                                            Spotify
-                                        </a>
-                                        <a href="https://youtube.com/@/" class="social-btn" target="_blank">
-                                            <i class="fab fa-youtube"></i>
-                                            YouTube
-                                        </a>
-                                        <a href="https://soundcloud.com/" class="social-btn" target="_blank">
+                                        <a href="https://soundcloud.com/tracklessdeep" class="social-btn" target="_blank">
                                             <i class="fab fa-soundcloud"></i>
                                             SoundCloud
                                         </a>
@@ -1566,25 +1559,13 @@
                     </button>
                     <div class="info-dropdown-content" id="infoDropdownDesktop">
                         <div class="bio-content">
-                            <h3>About [ARTIST NAME]</h3>
-                            <p>Welcome to my music showcase! This is my personal space to share my latest tracks, albums, and artwork with you.</p>
-                            
+                            <h3>About The Trackless Deep</h3>
+                            <p>Score and music from The Trackless Deep universe and its animated feature, The Amethyst Passage.</p>
+
                             <div class="social-links">
-                                <h4>Connect with [ARTIST NAME]</h4>
+                                <h4>Connect with The Trackless Deep</h4>
                                 <div class="social-buttons">
-                                    <a href="https://instagram.com/" class="social-btn" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                        Instagram
-                                    </a>
-                                    <a href="https://open.spotify.com/artist/" class="social-btn" target="_blank">
-                                        <i class="fab fa-spotify"></i>
-                                        Spotify
-                                    </a>
-                                    <a href="https://youtube.com/@/" class="social-btn" target="_blank">
-                                        <i class="fab fa-youtube"></i>
-                                        YouTube
-                                    </a>
-                                    <a href="https://soundcloud.com/" class="social-btn" target="_blank">
+                                    <a href="https://soundcloud.com/tracklessdeep" class="social-btn" target="_blank">
                                         <i class="fab fa-soundcloud"></i>
                                         SoundCloud
                                     </a>
@@ -2096,8 +2077,8 @@
                 window.updateMediaSessionMetadata = function(title, artist, artwork) {
                     navigator.mediaSession.metadata = new MediaMetadata({
                         title: title,
-                        artist: artist || '[ARTIST NAME]',
-                        album: currentAlbum ? currentAlbum.name : '[ARTIST NAME]',
+                        artist: artist || 'The Trackless Deep',
+                        album: currentAlbum ? currentAlbum.name : 'The Trackless Deep',
                         artwork: [
                             {
                                 src: artwork,

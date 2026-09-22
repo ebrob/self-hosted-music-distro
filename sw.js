@@ -1,7 +1,7 @@
-// Service Worker for [ARTIST NAME] Music Library
+// Service Worker for The Trackless Deep Music Library
 // Enables background audio playback and offline functionality
 
-const CACHE_NAME = 'drum-row-music-v1';
+const CACHE_NAME = 'trackless-deep-music-v1';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -76,7 +76,7 @@ self.addEventListener('push', (event) => {
     };
 
     event.waitUntil(
-      self.registration.showNotification(data.title || '[ARTIST NAME]', options)
+      self.registration.showNotification(data.title || 'The Trackless Deep', options)
     );
   }
 });
